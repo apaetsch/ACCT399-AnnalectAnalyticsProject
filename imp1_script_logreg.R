@@ -67,6 +67,7 @@ tbu_final$last_touchpoint <- as.POSIXct(tbu_final$last_touchpoint)
 tbu_final$first_touchpoint <- as.numeric(tbu_final$first_touchpoint)
 tbu_final$last_touchpoint <- as.numeric(tbu_final$last_touchpoint)
 
+write.csv(tbu_final, file = "/Users/apaetsch/Desktop/imp_eng_conv_v1_10k_users_ROLLUP_v2.csv")
 
 # CREATE TEST AND TRAINING SET
 set.seed(123)
